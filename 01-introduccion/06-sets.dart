@@ -6,5 +6,7 @@ main(){
 	paises.add('Pànama');
 	paises.add('Pànama');
 
-	print(paises);
+  List<String> misPaises = paises.toList();
+
+	print(misPaises.toSet());
 }
