@@ -1,0 +1,5 @@
+1- Verde
+2- Amarillo
+3- Rojo
+4- Blanco
+5- Negro
