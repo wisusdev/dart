@@ -1,7 +1,7 @@
 main(){
   var a = 10;
   final int b = 8; // No cambia su valor y es mas ligera en memoria
-  const double c = 12; // Contante
+  const double c = 12; // Constante
 
   final List<String> colores = ['verde', 'amarillo', 'rojo'];
   const List<String> paises = ['Mexico', 'Guatemala', 'Canadà'];
