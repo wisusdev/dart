@@ -1,6 +1,6 @@
 import 'dart:io';
 main(){
-	// Imprimir en terminal
+	// Imprimir e inicia input de entrada en termina
 	stdout.writeln('¿Cual es tu nombre?');
 
 	// Leer informaciòn

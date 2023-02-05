@@ -1,8 +1,8 @@
 main(){
 
-  int num_ini = 35;
+	int num_ini = 35;
 
-  ++num_ini;	// Incrementa	++	36	 	 	 	 
+  	++num_ini;	// Incrementa	++	36	 	 	 	 
  	num_ini++; // Incrementa	++	36	 	 	 	 
  	--num_ini; // Decrementa	--	34	 	 	 	 
  	num_ini--; // Decrementa	--	34	 	 	 	 

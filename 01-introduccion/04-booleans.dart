@@ -1,7 +1,11 @@
 main(){
-	// Booleano
+	// Booleanos
+    
+    //usamos "?" para indicar que un valor puede ser null
 	bool? isActive = true;
-	bool isNotActive = !isActive;
+    print(isActive);
 
+    // (!) invierte la expresion, de falsa a true, y viceversa.
+	bool isNotActive = !isActive;
 	print(isNotActive);
 }

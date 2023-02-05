@@ -1,22 +1,25 @@
 main(){
 	// Este es un comentario
 	int a = 10;
+    print(a);
 
-  final colores = [
-    // Primer color
-    'Color 01' // [0]
+    final List<String> lista01 = [
+        // Primer color
+        'Color 01' // [0]
 
-    // Segundo color
-    'Color 02' // [1]
+        // Segundo color
+        'Color 02' // [1]
 
-    // Tercer color
-    'Color 03' // [2]
-  ];
+        // Tercer color
+        'Color 03' // [2]
+    ];
 
-  /*
-    Este es un comentario en bloque
-  */
+    print(lista01);
 
-  /// Comentario especial donde se puede usar para hacer referencia a  [datos]
+    /**
+        Este es un comentario de documentación en bloque
+    */
+
+    /// Comentario de documentación en formato linea
 }
 

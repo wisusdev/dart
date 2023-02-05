@@ -1,7 +1,7 @@
 void main(){
-  print(saludo());
+	print(saludo());
 }
 
 String saludo(){
-  return 'Hola mundo';
+	return 'Hola mundo';
 }

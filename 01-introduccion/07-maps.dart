@@ -1,21 +1,43 @@
 main(){
 	// Mapas
-	Map<String, dynamic> misDatos = {
+
+    /*
+    Los Map son colecciones que se caracterizan por estar compuestas de elementos Clave:Valor. 
+    Para inicializar una variable de tipo Map basta con asignar entre llaves {} los válores Clave:Valor separados por una coma.
+    */
+
+
+	Map<String, dynamic> map01 = {
 		'nombre': 'Jesus',
 		'apellido': 'Avelar',
 		'edad' : 30,
 	};
+    print(map01);
 
-	misDatos.addAll({'pais': 'El Salvador'});
+    // Para agregar nuevos elementos al Map usamos.
+    map01['color_pelo'] =  'Castaño';
+    print(map01);
 
-	misDatos.remove('edad');
+	map01.addAll(
+        {
+            'pais': 'El Salvador'
+        }
+    );
+    print(map01);
 
-	print(misDatos['pais']);
+    // Para eliminar un elemento del Map usamos la Clave del elemento a eliminar.
+	map01.remove('edad');
+    print(map01);
 
-	Map<String, dynamic> miInfo = {
-		'estatura' : 1.70,
-		'peso' : 180,
-		'genero' : 'M',
-		'ojos' : 'cafe'
-	};	
+    // Para aaceder al valor de un elemento usamos su clave
+	print(map01['pais']);
+
+	Map<String, String> map02 = {
+		'El Salvador' : 'San Salvador',
+		'México' : 'México DF',
+		'Belice' : 'Belmopán',
+		'Bolivia' : 'Sucre'
+	};
+
+    print(map02);
 }

@@ -6,7 +6,8 @@ main(){
 	print(num_ini - 2); // Resta (-) 42
 	print(num_ini * 2); // Multiplicación (*) 42
 	print(num_ini / 2); // División	(/) 42.0
-	print(num_ini ~/ 2);	// Divide y retorna un resultado entero	~/ 		
+	print(num_ini ~/ 2);	// Divide y retorna un resultado entero	~/
+    print(num_ini % 2); // Modulo, retorna el resto de la división	
 	
 
 	double value = 42.0;
